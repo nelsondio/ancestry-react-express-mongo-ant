@@ -1,0 +1,36 @@
+{
+  "name": "ancestry-express-mongo",
+  "version": "1.0.0",
+  "description": "Express server connected to mongo server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nelsondio"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "mongoserver",
+    "ancestry",
+    "hash",
+    "dna",
+    "cdna"
+  ],
+  "author": "Nelson Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "nodemon": "^2.0.16"
+  }
+}
